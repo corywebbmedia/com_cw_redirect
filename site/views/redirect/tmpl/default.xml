@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CW_REDIRECT_TITLE_VIEW_REDIRECT" option="Redirect">
+        <message>
+                        <![CDATA[COM_CW_REDIRECT_TITLE_VIEW_REDIRECT_DESC]]>
+        </message>
+	</layout>
+
+    <fields name="params">
+        <fieldset name="basic"
+            label="COM_CW_REDIRECT_SETTINGS_LABEL">
+
+            <field name="redirect" type="text" default=""
+              label="COM_CW_REDIRECT_FIELD_REDIRECT_LABEL"
+              description="COM_CW_REDIRECT_FIELD_REDIRECT_DESC" />
+
+        </fieldset>
+    </fields>
+</metadata>

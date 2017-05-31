@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset label="COM_CW_REDIRECT" name="redirect">
+        <field name="redirect" type="text" default=""
+          label="COM_CW_REDIRECT_FIELD_REDIRECT_LABEL"
+          description="COM_CW_REDIRECT_FIELD_REDIRECT_DESC" />
+    </fieldset>
+    <fieldset 
+        name="permissions"
+	description="JCONFIG_PERMISSIONS_DESC"
+	label="JCONFIG_PERMISSIONS_LABEL">
+
+		<field 
+                    name="rules" type="rules" component="com_cw_redirect"
+                    class="inputbox" filter="rules" validate="rules"
+                    label="JCONFIG_PERMISSIONS_LABEL"
+                    section="component" />
+	</fieldset>
+</config>
